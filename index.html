@@ -1,0 +1,129 @@
+<html>
+	<head>
+		<title>Home</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		
+		<script src="myscripts.js"></script>
+		
+		 
+		<style>
+			.container {
+			  position: relative;
+			  width: 100%;
+			}
+
+			.image {
+			  display: block;
+			  width: 100%;
+			  height: auto;
+			}
+
+			.overlay {
+			  position: absolute;
+			  bottom: 0;
+			  left: 0;
+			  right: 0;
+			  background-color: #9E7BFF;
+			  overflow: hidden;
+			  width: 0%;
+			  height: 100%;
+			  transition: .5s ease;
+			}
+
+			.container:hover .overlay {
+			  width: 100%;
+			}
+
+			.text {
+			  white-space: nowrap; 
+			  color: white;
+			  font-size: 20px;
+			  position: absolute;
+			  overflow: hidden;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+			  -ms-transform: translate(-50%, -50%);
+			  font-family: Courier New;
+			}
+		</style>
+
+</head>
+
+	<body>
+
+			<marquee behavior="scroll" direction="left"
+           onmousedown="this.stop();"
+           onmouseup="this.start();">This website is develop for Basic Web Design and Content Management (IMS456). All information and materials are used for educational purpose only.</marquee>
+
+					
+		<div id="container">
+			<div id="header">
+			<h1><a href="index.html"><font color="white" face="Harrington"><b>SNLOVE</b></font></a></h1>
+			</div>
+					
+			<div id="content">
+				<div id="nav">
+					<ul type="none">
+						<li><a class=selected href="index.html">Home</a></li>
+						<br>
+						<li><a class=selected href="aboutme.html">About Me</a></li>
+						<br>
+						<li><a class=selected href="education.html">Education</a></li>
+						<br>
+						<li><a class=selected href="experience.html">Experience</a></li>
+						<br>
+						<li><a class=selected href="family.html">Family</a></li>
+						<br>
+						<li><a class=selected href="friends.html">Friends</a></li>
+						<br>
+						<li><a class=selected href="gallery.html">Gallery</a></li>
+					</ul>
+				
+					<div id="clock">
+						<meta charset="UTF-8" />
+						<meta name="viewport" content=
+						"width=device-width, 
+						initial-scale=1.0" />
+					</div>
+					
+				</div>
+
+				<div id="main">
+				
+					
+					
+					<h1><b>Introduction</b></h1>
+					<br>
+						
+					
+					<div class="container">
+					
+		
+						<a href="https://www.instagram.com/snlcrayon/" target="self">
+							<center><img src="image/indexself.jpg" width="75%" height="70%"></center>
+						<div class="overlay">
+							<div class="text">Hello World</div>
+						</div>
+					</div>
+					</a>
+					<br>
+					<p style = "text-indent : 3em;">This website is designed as an effort to fulfill the requirement for Basic Web Design and Content Management (IMS456). The subject is currently taken on the third semester of my Bachelor in Information Science (Hons) Records Management at <a href="https://johor.uitm.edu.my/" target="self">Universiti Teknologi MARA Johor, campus Segamat</a> under the <a href="https://fim.uitm.edu.my/en/" target="self">Faculty of Information Management</a>.</p>
+					<p style = "text-indent : 3em;">Throughout the subject learning, students will be introduced to the popularity and importance of <abbr title="World Wide Web">WWW</abbr> that has been in the industry ever since and widely used by everyone in the world for its convenient. Students also will learn how to create their own website, which we are particularly in the process of establish one.</p>
+					<p style = "text-indent : 3em;">You will know me better when you are browsing my website as I will share more about myself, education background and pieces of my experiences. Not to forget, I will also acknowledge my beloved family members and friends who have been with me through thick and thin since I was younger until now.</p>
+					<p style = "text-indent : 3em;">Despite being an introvert person and still able to communicate well in real life, I am hoping that I could reach to the societies by using this golden opportunity creating my own website where I can open up without any worries and insecurities.</p>
+					<p style = "text-indent : 3em;">Enjoy your visit!</p>
+					<br>
+				</div>
+				
+			</div>
+				<br>
+			<div id="footer">
+				Copyright &copy; 2021 Faculty of Information Management
+			</div>
+
+		</div>
+		
+	<button id="myBtn"><a href="#top" style="color: white">Top</a></button>
+	</body>
+</html>

@@ -1,0 +1,145 @@
+<html>
+	<head>
+		<title>My Friends</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="myscripts.js"></script>
+		<style>
+			.iscontainer {
+			  position: relative;
+			  width: 100%;
+			}
+
+			.image {
+			  display: block;
+			  width: 100%;
+			  height: auto;
+			}
+
+			.isoverlay {
+			  position: absolute;
+			  bottom: 100%;
+			  left: 0;
+			  right: 0;
+			  background-color: #9E7BFF;
+			  overflow: hidden;
+			  width: 100%;
+			  height: 0;
+			  transition: .5s ease;
+			}
+
+			.iscontainer:hover .isoverlay {
+			  bottom: 0;
+			  height: 100%;
+			}
+
+			.istext {
+			  white-space: nowrap; 
+			  color: white;
+			  font-size: 20px;
+			  position: absolute;
+			  overflow: hidden;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+			  -ms-transform: translate(-50%, -50%);
+			  font-family: Courier New;
+			}
+		</style>
+
+</head>
+	<body>
+	
+		<div id="container">
+			<div id="header">
+			<h1><a href="index.html"><font color="white" face="Harrington"><b>SNLOVE</b></font></a></h1>
+			</div>
+
+			<div id="content">
+				<div id="nav">
+					<ul type="none">
+						<li><a class=selected href="index.html">Home</a></li>
+						<br>
+						<li><a class=selected href="aboutme.html">About Me</a></li>
+						<br>
+						<li><a class=selected href="education.html">Education</a></li>
+						<br>
+						<li><a class=selected href="experience.html">Experience</a></li>
+						<br>
+						<li><a class=selected href="family.html">Family</a></li>
+						<br>
+						<li><a class=selected href="friends.html">Friends</a></li>
+						<br>
+						<li><a class=selected href="gallery.html">Gallery</a></li>
+					</ul>
+					
+					<div id="clock">
+						<meta charset="UTF-8" />
+						<meta name="viewport" content=
+						"width=device-width, 
+						initial-scale=1.0" />
+					</div>
+					
+				</div>
+
+				<div id="main">
+					<h1><b>My Friends</b></h1>
+					<p style = "text-indent : 3em;">Friends. For me, friendship is one of the most important component in achieving better life. 
+						Yes, we have to choose the right person for us to declare them as our friends. Friends attitudes could influence us. 
+						That is why Rasulullah SAW asked us to befriend with good people with good personalities and good attitudes. 
+						Friends. I love the idea where me and my friends being close as we understand each other, we can negotiate in every single thing and we know what best for one and another. 
+						I love creating bittersweet memories which I can remember when I am getting older and miss those old time. 
+						So, I do have friends, a lot who keep me motivate as we fight for the same goal and loving each other because of Allah SWT. InsyaAllah.
+						I love all of my friends, whether they are mention in this entry or not because every person that have entered in my life as 
+						a friend has taught something valuable even if it just a small massage. I hope I can keep my relationship with them also befriends with new people in the future.
+						So, here are my friends!</p>
+					<br>
+	
+						<div class="iscontainer">
+							<a class=selected href="schoolfriends.html">
+								<img src="image/friends3.jpg" width="49%" height="50%" alt="Friends">
+								<img src="image/abrar.jpg" width="50%" height="50%" alt="Friends">
+							  <div class="isoverlay">
+								<div class="istext">Friends from schools</div>
+							  </div>
+							</a>
+						</div>
+					<br>
+					<br>
+						<div class="iscontainer">
+								<a class=selected href="unifriends.html">
+									<img src="image/friends.jpg" width="49%" height="53%" alt="Friends">
+									<img src="image/friends2.jpg" width="50%" height="53%" alt="Friends">
+							  <div class="isoverlay">
+								<div class="istext">Friends from university</div>
+							  </div>
+							</a>
+						</div>
+					<br>
+					<br>
+					<div class="iscontainer">
+							<a class=selected href="picfriends.html">
+								<img src="image/wave.jpg" width="51%" height="53%" alt="Friends">
+								<img src="image/wave2.jpg" width="48%" height="53%" alt="Friends">
+							  <div class="isoverlay">
+								<div class="istext">Partner in Crime</div>
+							  </div>
+							</a>
+						</div>
+						
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+				</div>
+				
+			</div>
+				
+			<div id="footer">
+				Copyright &copy; 2021 Faculty of Information Management
+			</div>
+
+		</div>
+		<button id="myBtn"><a href="#top" style="color: white">Top</a></button>
+	</body>
+</html>
